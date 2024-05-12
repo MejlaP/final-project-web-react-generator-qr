@@ -1,0 +1,70 @@
+.qr-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 280px;
+    border: 1px solid white;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.generating-gr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+    min-height: 280px;
+    border-right: 1px solid white;
+}
+
+.qr-form-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    min-width: 200px;
+}
+
+input[type=text] {
+    background-color: lightblue;
+    color: black;
+    border: 1px solid #0B2559;
+    padding: 7px 5px;
+    border-radius: 1px;
+    text-align: center;
+}
+
+input[type=text]:focus {
+    background-color: rgb(200, 189, 230)
+}
+
+input[type=submit] {
+    background-color: #0B2559;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+}
+
+input[type=submit]:hover {
+    background-color: #2b467c;
+    cursor: pointer;
+}
+
+.result-qr {
+    min-width: 50%;
+}
+
+.your-qr-title {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}

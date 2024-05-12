@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background: #01415B;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #01415B;
+    margin-bottom: 5px;
+    background: -webkit-linear-gradient(#eee, #888);
+    margin: 20px 25px 0 25px
+}
+
+header h2 {
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom: 40px
+}
+
+h4 {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 17px;
+    margin-top: 7px
+}
+
+
+.logo-flag {
+    opacity: 70%;
+    width: 14%
+}
+
+.information-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.positions {
+    text-align: left;
+    margin-left: 25px;
+}
+
+button {
+    background-color: #01415B;
+    color: white;
+    border: none;
+    padding: 12px 17px;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: #0B2559;
+}
+
+button:hover {
+    box-shadow: 0px 4px 0px #A6BC09;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 17px;
+    margin: 40px 20px 0 20px
+}
+
+footer .link-styles {
+    text-decoration: none;
+    color: #A6BC09;
+    font-weight: bold;
+}
+
+footer .link-styles:hover, footer .link-styles:active {
+    box-shadow: 0px 0px 15px #019587;
+}
+
+footer p {
+    margin: 10px;
 }
